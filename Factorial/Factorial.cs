@@ -7,8 +7,8 @@ namespace Factorial
         public static long Factorial(long a)
         {
             long f = 1;
-            while (a>1) f *= a-- 
-            return false;
+            while (a>1) f *= a--;
+            return f;
         }
         
         static void Main(string[] args){
