@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Factorial
+namespace FactorialNS
 {
-    class MyFactorial
+    public class MyFactorial
     {
         public static long Factorial(long a)
         {
