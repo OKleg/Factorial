@@ -7,7 +7,7 @@ namespace FactorialNS
         public static long Factorial(long a)
         {
             long f = 1;
-            while (a>1) f *= a--; 
+            while (a>1) f *= a--;
             return f;
         }
         
